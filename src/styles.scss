@@ -1,0 +1,13 @@
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  
+  .header-nav a{
+    text-decoration: none;
+    margin:20px;
+  }
+}
