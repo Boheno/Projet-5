@@ -2,10 +2,14 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+  margin: 0px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
-  margin: 20px;
+  margin: 40px;
 }
 header .header-nav a {
   text-decoration: none;
@@ -20,6 +24,7 @@ footer {
   background-color: black;
   color: white;
   height: 130px;
+  margin: 0px;
 }
 footer img {
   width: 100px;
@@ -27,5 +32,3 @@ footer img {
 footer p {
   font-size: 10px;
 }
-
-/*# sourceMappingURL=index.css.map */
