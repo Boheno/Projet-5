@@ -5,11 +5,13 @@ import Header from "./Header/header.jsx"
 import Footer from "./Footer/Footer.jsx"
 import Error from "./Error/error.jsx"
 import Banner from "./Banner/Banner.jsx"
+import GenerateCards from "./Cards/cards.jsx"
+import logements from "./logements.json"
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (<><Header /> <Home /> <Banner page="Home" /> <Footer /> </>),
+    element: (<><Header /> <Home /> <Banner page="Home" /> <GenerateCards logements={logements} /> <Footer /> </>),
   },
   {
     path: "/about",

@@ -1,0 +1,41 @@
+@import 'banner';
+@import "cards";
+
+$police: Verdana;
+$police2: Geneva;
+$police3: Tahoma;
+$police4: sans-serif;
+
+:root {
+    font-family: $police + "," + $police2 + "," + $police3 + "," + $police4;
+  }
+body{
+    margin:0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+  
+  .header-nav a{
+    text-decoration: none;
+    margin:20px;
+  }
+}
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 130px;
+    margin:0px;
+
+    img{
+        width:100px;
+    }
+    p{
+        font-size: 10px;
+    }
+}
