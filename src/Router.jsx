@@ -6,7 +6,7 @@ import Footer from "./Footer/Footer.jsx"
 import Error from "./Error/error.jsx"
 import Banner from "./Banner/Banner.jsx"
 import GenerateCards from "./Cards/cards.jsx"
-import logements from "./logements.json"
+import logements from "../logements.json"
 
 const router = createBrowserRouter([
   {

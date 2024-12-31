@@ -1,27 +1,44 @@
-$margin: 20px;
+$margin: 15px;
+
+@mixin size($w,$h){
+    width: $w;
+    height:$h;
+}
+
+@mixin cards {
+    margin: $margin;
+    padding:15px;
+    display:flex;
+    @include size (350px, 300px);
+    align-items: end;
+}
 
 .logements-container{
     margin:$margin;
     display:flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+    
 }
 .logement-card{
-    margin: $margin;
-    display:flex;
-    width:20%;
-    height: 20%;
+    @include cards;
 
     img{
         object-fit: cover;
-        margin: $margin;
-        width:100%;
-        height: 20%;
+        display: flex;
+        justify-content: space-around;
+        @include size (350px, 300px);
         z-index: 0;
         position:absolute;
+        border-radius: 20px;
+        
     }
     figcaption{
         z-index: 1;
         position: absolute;
+        color:white;
+        padding:20px;
+        font-size: 12px;
     }
 }

@@ -1,13 +1,11 @@
-@import 'banner';
+@import "banner";
 @import "cards";
+@import "error";
 
-$police: Verdana;
-$police2: Geneva;
-$police3: Tahoma;
-$police4: sans-serif;
+$police: Montserrat;
 
 :root {
-    font-family: $police + "," + $police2 + "," + $police3 + "," + $police4;
+    font-family: $police;
   }
 body{
     margin:0px;
