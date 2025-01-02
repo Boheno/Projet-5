@@ -64,6 +64,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 30px;
+}
+
+p {
+  color: #FF6060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  color: black;
 }
 
 :root {
@@ -96,9 +113,11 @@ footer {
 }
 footer img {
   width: 100px;
+  margin-top: 20px;
 }
 footer p {
   font-size: 10px;
+  color: white;
 }
 
 /*# sourceMappingURL=index.css.map */

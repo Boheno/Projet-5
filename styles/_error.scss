@@ -1,7 +1,21 @@
-.error{
-    font-size: 200px;
-    color:#FF6060;
+$color-main: #FF6060;
+
+@mixin position{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin: 30px;
+}
+.error{
+    font-size: 200px;
+    color: $color-main;
+    @include position;
+}
+p{
+    color: $color-main;
+    @include position;
+}
+a {
+    @include position;
+    color:black;
 }
